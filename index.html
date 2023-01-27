@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="src/css/scroll.css">
     <link rel="stylesheet" href="src/css/menu-bar.css">
     <link rel="stylesheet" href="src/css/typewriter.css">
+    <link rel="stylesheet" href="src/css/circular-progress.bar.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"
@@ -30,9 +31,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
         integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/tomik23/circular-progress-bar@1.1.9/dist/circularProgressBar.min.js"></script>
+    <script src="src/js/title.js"></script>
     <script src="src/js/scroll.js"></script>
     <script src="src/js/typewriter.js"></script>
-    <script src="src/js/title.js"></script>
+    <script src="src/js/audio-api.js"></script>
+    <script src="src/js/circular-progress-bar.js"></script>
 
 </head>
 
@@ -49,11 +54,12 @@
         <div class="container">
             <div class="row">
                 <ul>
+
                     <li class="tabulated">
-                        <a id="start"><i class="fa-solid fa-file-image"></i> start.png</a>
-                        <a id="about_me"><i class="fa-solid fa-file-image"></i> abt_me.jpg</a>
-                        <a id="projects"><i class="fa-solid fa-file-zipper"></i> projects.zip</a>
-                        <a id="contact"><i class="fa-solid fa-file-zipper"></i> contact_me.tar.gz</a>
+                        <a id="start" class="br-tab"><i class="fa-solid fa-file-code"></i> start.py</a>
+                        <a id="about_me" class="br-tab"><i class="fa-solid fa-file-code"></i> about.php</a>
+                        <a id="projects" class="br-tab"><i class="fa-solid fa-file-code"></i> projects.cs</a>
+                        <a id="contact"><i class="fa-solid fa-file-code"></i> contact.js</a>
                     </li>
                     <li class="socials">
                         <a href="http://github.com/nikitacontreras" target="_blank" rel="noopener noreferrer"><i
@@ -62,6 +68,10 @@
                                 class="fa-brands fa-instagram"></i></a>
                         <a href="http://linkedin.com/in/nikitastrike" target="_blank" rel="noopener noreferrer"><i
                                 class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:info@inferport.com" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:573236123894" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-solid fa-phone"></i></a>
                     </li>
                 </ul>
 
@@ -85,8 +95,47 @@
     <section class="scroll s-two" data-section-name="s-two">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Section TWO</p>
+                <div class="col">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 , "unit":"css"}'></div>
+                                </td>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 }'></div>
+                                </td>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 }'></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 }'></div>
+                                </td>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 }'></div>
+                                </td>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 }'></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 }'></div>
+                                </td>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 }'></div>
+                                </td>
+                                <td>
+                                    <div class="pie" data-pie='{ "percent": 80 }'></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+
                 </div>
             </div>
         </div>

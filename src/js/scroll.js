@@ -1,5 +1,5 @@
+console.log.apply(console, ["%c made with ♥ by nikita", "color: " + "#efefef" + "; background: " + "#070707" + "; padding:5px 0; border-radius: 5px; font-weight: bold; font-size:14px;",])
 $(document).ready(() => {
-    console.log.apply(console, ["%c made with ♥ by nikita", "color: " + "#efefef" + "; background: " + "#070707" + "; padding:5px 0; border-radius: 5px; font-weight: bold; font-size:14px;",])
 
     $.scrollify({
         section: ".scroll",

@@ -1,0 +1,50 @@
+.menu-bar {
+    color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100vw;
+    z-index: 500;
+}
+
+.menu-bar a {
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 5px;
+}
+
+.list-group li {
+
+    display: inline;
+}
+
+.socials {
+    float: right !important;
+    display: inline;
+    text-align: right;
+}
+
+.tabulated {
+    display: inline;
+    color:whitesmoke;
+    cursor:pointer;
+}
+
+
+.tabulated a {
+    text-decoration: underline;
+}
+
+.tabulated a i {
+    color: whitesmoke;
+}
+
+ul {
+    display: inline-block;
+    overflow: hidden;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: .25rem;
+}

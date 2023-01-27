@@ -31,7 +31,11 @@
     color:whitesmoke;
     cursor:pointer;
 }
-
+@media (max-width: 480px) {
+    .menu-bar a {
+        font-size: 12px;
+    }
+  }
 
 .tabulated a {
     text-decoration: underline;

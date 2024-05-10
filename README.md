@@ -20,7 +20,7 @@
   <a style="display: block;" href="https://www.linkedin.com/in/nikitastrike"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
    <a style="display: block;" href="https://twitter.com/nikcontre"><img src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
    <a style="display: block;" href="https://open.spotify.com/artist/27yHQqsBreMCdgWfxerH0R?si=b5322e91058d4156"><img src="https://img.shields.io/badge/spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a></li>
-   <a style="display: block;" href="https://www.youtube.com/@_STRIKEMEDIA_/"><img src="https://img.shields.io/youtube/channel/subscribers/UCm3XaWg7vq0LvIHlUJV2Qhg?style=for-the-badge"></a>
+   <a style="display: block;" href="https://www.youtube.com/@_STRIKEMEDIA_/"><img src="https://img.shields.io/youtube/channel/subscribers/UCm3XaWg7vq0LvIHlUJV2Qhg?style=for-the-badge&logo=youtube&logoColor=white"></a>
    </p>
 </details>
  

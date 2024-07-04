@@ -5,7 +5,7 @@
   <summary align="right" style="font-size:14px;"> ⚙️ <span style="text-decoration:underline wavy #8c8c8c; text-decoration-thickness: .14rem;">my skills</span></summary>
   <hr style="margin-top:-1rem">
   <p align="center"> 
-  <img src="https://skillicons.dev/icons?i=js,nodejs,react,php,py,cs,cpp,dotnet,bash,arduino,bots,linux,mysql,mongodb,nginx">
+  <img src="https://skillicons.dev/icons?i=js,nodejs,react,php,py,cs,cpp,dotnet,bash,arduino,bots,linux,mysql,mongodb,nginx,docker,cloudflare,blender&theme=dark&perline=6">
 </p>
   </details>
   
